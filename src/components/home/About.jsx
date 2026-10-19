@@ -76,14 +76,14 @@ export default function About() {
             className="absolute -bottom-6 right-3 max-w-[260px] rounded-xl border border-[#E5ECE7] bg-white p-4 shadow-xl sm:-bottom-8 sm:right-0 sm:p-5"
           >
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#087443]/10 text-xl text-[#087443]">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#087443]/10 text-xl text-[#087443]">
                 <FaFlask />
               </div>
               <div>
-                <p className="font-bold text-[#172B24]">
+                <p className="font-bold text-sm md:text-sm text-[#172B24]">
                   Pharma Supply Solutions
                 </p>
-                <p className="mt-1 text-sm text-slate-500">
+                <p className="mt-1 text-[12px] md:text-sm text-slate-500">
                   APIs & intermediates
                 </p>
               </div>

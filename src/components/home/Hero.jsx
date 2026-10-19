@@ -21,8 +21,8 @@ const highlights = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-white">
-      <div className="pointer-events-none absolute -left-32 top-20 h-72 w-72 rounded-full bg-[#087443]/5 blur-3xl" />
-      <div className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-[#FF7900]/10 blur-3xl" />
+      <div className="pointer-events-none absolute left-0 top-[6%] h-80 w-80 rounded-full bg-[#087443]/10 blur-[100px] sm:left-[2%] sm:top-[8%] sm:h-[28rem] sm:w-[28rem] sm:blur-[120px] lg:left-[1%] lg:top-[10%] lg:h-[34rem] lg:w-[34rem] lg:blur-[130px]" />
+      <div className="pointer-events-none absolute -right-12 top-[50%] h-80 w-80 rounded-full bg-[#FF7900]/20 blur-[100px] sm:right-0 sm:top-[40%] sm:h-[30rem] sm:w-[30rem] sm:blur-[120px] lg:right-[4%] lg:top-[7%] lg:h-[38rem] lg:w-[38rem] lg:blur-[130px]" />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-8 px-5 py-10 sm:gap-10 sm:px-8 sm:py-16 lg:min-h-[650px] lg:grid-cols-2 lg:gap-16 lg:px-10 lg:py-24">
         {/* Hero content */}

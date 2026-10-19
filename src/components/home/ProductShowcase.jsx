@@ -85,19 +85,20 @@ export default function ProductShowcase() {
           variants={staggerContainer}
         >
           <ShowcaseHeader
-            eyebrow="Our Portfolio"
+            eyebrow="Pharmaceutical Ingredients"
             title={
               <>
-                Featured <span className="text-[#087443]">APIs</span>
+                Active Pharmaceutical{" "}
+                <span className="text-[#087443]">Ingredients (APIs)</span>
               </>
             }
-            description="A selection of Active Pharmaceutical Ingredients (APIs) supplied by DIVIN PHARMA. Enquire on WhatsApp for availability, grades, specifications, and supply details."
+            description="Explore our range of Active Pharmaceutical Ingredients (APIs) for pharmaceutical manufacturing. Contact our team for availability, grades, specifications, and supply details."
           />
 
           <ShowcaseGrid items={featuredApis} />
 
           <ViewAllButton href="/products?category=API">
-            View All APIs
+            Explore All APIs
           </ViewAllButton>
         </motion.div>
 
@@ -111,20 +112,20 @@ export default function ProductShowcase() {
           variants={staggerContainer}
         >
           <ShowcaseHeader
-            eyebrow="Chemical Building Blocks"
+            eyebrow="Pharmaceutical Intermediates"
             title={
               <>
-                Featured Pharmaceutical{" "}
+                Pharmaceutical{" "}
                 <span className="text-[#087443]">Intermediates</span>
               </>
             }
-            description="DIVIN PHARMA also supplies pharmaceutical intermediates for industry sourcing requirements. Browse key intermediates below or enquire directly with our team."
+            description="Source pharmaceutical intermediates for your manufacturing and procurement requirements. Contact our team for product specifications, availability, and supply information."
           />
 
           <ShowcaseGrid items={featuredIntermediates} />
 
           <ViewAllButton href="/products?category=Intermediate">
-            View All Intermediates
+            Explore All Intermediates
           </ViewAllButton>
         </motion.div>
       </div>

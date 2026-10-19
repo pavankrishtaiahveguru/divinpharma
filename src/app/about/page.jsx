@@ -255,13 +255,15 @@ export default function AboutPage() {
                 className="object-cover object-[68%_center] transition-transform duration-700 hover:scale-105 sm:object-center"
               />
             </div>
-            <div className="relative mt-3 w-fit max-w-full rounded-xl bg-white p-2.5 shadow-lg sm:absolute sm:-left-5 sm:top-8 sm:mt-0 sm:p-5">
+            <div className="absolute -bottom-3 left-3 right-3 z-10 rounded-xl bg-white p-3 shadow-lg sm:bottom-auto sm:right-auto sm:top-8 sm:-left-5 sm:w-fit sm:max-w-[calc(100%-1.25rem)] sm:p-5">
               <div className="flex items-center gap-2.5 sm:gap-3">
                 <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#087443]/10 text-lg text-[#087443] sm:h-11 sm:w-11 sm:text-xl">
                   <FaGlobeAsia />
                 </div>
-                <div>
-                  <p className="font-bold text-[#172B24]">Domestic & Global</p>
+                <div className="min-w-0">
+                  <p className="whitespace-nowrap text-sm font-bold text-[#172B24] sm:text-base">
+                    Domestic &amp; Global
+                  </p>
                   <p className="text-xs text-slate-500">Supply enquiries</p>
                 </div>
               </div>
